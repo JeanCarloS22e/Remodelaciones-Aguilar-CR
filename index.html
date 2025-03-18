@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remodelaciones de Casas</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        header { background: #333; color: white; padding: 10px; }
+        section { margin: 20px; }
+        .gallery img { width: 100px; margin: 5px; }
+        footer { background: #333; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Remodelaciones de Casas</h1>
+        <nav>
+            <a href="#servicios">Servicios</a> | 
+            <a href="#galeria">Galería</a> | 
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <p>Remodelación de cocinas, baños, salas y exteriores.</p>
+    </section>
+    
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="cocina.jpg" alt="Remodelación de cocina">
+            <img src="bano.jpg" alt="Remodelación de baño">
+            <img src="sala.jpg" alt="Remodelación de sala">
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2025 Remodelaciones de Casas</p>
+    </footer>
+</body>
+</html>
